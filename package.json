@@ -1,0 +1,40 @@
+{
+  "name": "binancebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/main.js",
+    "startTest": "tsc && node dist/mainTest.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tsc --noEmit && eslint '*/**/*.{js,ts}' --quiet --fix"
+  },
+  "dependencies": {
+    "@types/node": "^15.6.0",
+    "ansicolor": "^1.1.93",
+    "as-table": "^1.0.55",
+    "axios": "^0.21.0",
+    "binance-api-node": "^0.10.45",
+    "ccxt": "^1.91.4",
+    "ccxws": "^0.47.0",
+    "crypto": "^1.0.1",
+    "defiant.js": "^2.2.7",
+    "dotenv": "^8.2.0",
+    "json-bigint": "^1.0.0",
+    "ololog": "^1.1.162",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.2.4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

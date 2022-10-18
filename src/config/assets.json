@@ -1,0 +1,16 @@
+{
+    "exchangeAssets": [
+        {
+            "exchangeName": "binance",
+            "assets": [
+                "ETH", "BNB"
+            ]
+        },
+        {
+            "exchangeName": "kucoin",
+            "assets": [
+                "ETH", "BNB"
+            ]
+        }
+    ]
+}
