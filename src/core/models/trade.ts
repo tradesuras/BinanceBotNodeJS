@@ -17,8 +17,8 @@ export class Trade {
     trailingStopPrice: number = 0.00;
     stepTrailPercentage: number = 0.00;
     stepTrailPrice: number = 0.00;
-    open: boolean = false;
-    active: boolean = false;
+    open: boolean = false; //orden ya en mercado
+    active: boolean = false; //orden en mercado pero no abierta (ej: orden pendiente)
 
     constructor() {
         this.active = true;
